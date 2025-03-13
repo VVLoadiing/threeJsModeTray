@@ -1,0 +1,23 @@
+{
+  "name": "xb-threejs-sheif-single",
+  "version": "1.0.2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepare": "npm run build"
+  },
+  "keywords": ["three.js", "3D", "model-viewer", "gltf", "typescript"],
+  "author": "Andy Zheng",
+  "license": "ISC",
+  "description": "一个基于Three.js的轻量级3D模型查看器，支持GLTF格式，提供简单的模型加载、动画播放和场景控制功能。",
+  "devDependencies": {
+    "@types/three": "^0.174.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "three": "^0.174.0"
+  }
+}
